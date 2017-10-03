@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sca:composite xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:BW="http://xsd.tns.tibco.com/amf/models/sca/implementationtype/BW" xmlns:XMLSchema="http://www.w3.org/2001/XMLSchema" xmlns:compositeext="http://schemas.tibco.com/amx/3.0/compositeext" xmlns:http="http://xsd.tns.tibco.com/bw/models/sharedresource/httpclient" xmlns:httpconnector="http://xsd.tns.tibco.com/bw/models/sharedresource/httpconnector" xmlns:sca="http://www.osoa.org/xmlns/sca/1.0" xmlns:scaext="http://xsd.tns.tibco.com/amf/models/sca/extensions" xmi:id="_0_ZlwEp_EeS7y8u2nUZj0A" targetNamespace="http://tns.tibco.com/bw/composite/tibco.bwce.sample.palette.http.RequestResponse" name="tibco.bwce.sample.palette.http.RequestResponse" compositeext:version="1.0.0" compositeext:description="Sending Request and getting Response from Website." compositeext:formatVersion="2">
+  <sca:property xmi:id="_1GTfAEp_EeS7y8u2nUZj0A" name="BW.APPNODE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_1GXwcEp_EeS7y8u2nUZj0A" name="BW.HOST.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_1GaMsEp_EeS7y8u2nUZj0A" name="BW.MODULE.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_1Gco8Ep_EeS7y8u2nUZj0A" name="BW.DEPLOYMENTUNIT.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_1GfFMEp_EeS7y8u2nUZj0A" name="BW.DEPLOYMENTUNIT.VERSION" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_1GkkwEp_EeS7y8u2nUZj0A" name="BW.MODULE.NAME" type="XMLSchema:string" scalable="true"/>
+  <sca:property xmi:id="_CnlSsEqAEeS7y8u2nUZj0A" name="LISTENING_HTTP_CONNECTION" type="httpconnector:HttpConnectorConfiguration" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_CxsQ8EqAEeS7y8u2nUZj0A" name="REQUESTING_HTTP_CONNECTION" type="http:HttpClientConfiguration" publicAccess="true" scalable="true"/>
+  <sca:property xmi:id="_onousHw3EeWH1LxePQ_xJg" name="BW.CLOUD.PORT" type="XMLSchema:int" scalable="true"/>
+  <sca:component xmi:id="_1CzfEEp_EeS7y8u2nUZj0A" name="ComponentProcess" compositeext:version="1.0.0.qualifier">
+    <scaext:implementation xsi:type="BW:BWComponentImplementation" xmi:id="_1CzfEUp_EeS7y8u2nUZj0A" processName="tibco.bwce.sample.palette.http.requestresponse.HTTP_Request_Response_Example"/>
+  </sca:component>
+</sca:composite>
