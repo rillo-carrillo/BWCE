@@ -822,7 +822,7 @@
         <bpws:variable element="ns4:WriteActivityOutputClass"
             name="WriteFile" sca-bpel:internal="true"/>
         <bpws:variable element="ns10:ResponseActivityInput"
-            name="SendHTTPResponse-input" sca-bpel:internal="true"/>
+            name="SendHTTPResponsess-input" sca-bpel:internal="true"/>
     </bpws:variables>
     <bpws:extensions>
         <bpws:extension mustUnderstand="no" namespace="http://www.eclipse.org/gmf/runtime/1.0.2/notation"/>
@@ -873,8 +873,8 @@
                 <tibex:activityExtension
                     expression="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xa;&lt;xsl:stylesheet xmlns:xsl=&quot;http://www.w3.org/1999/XSL/Transform&quot; xmlns:tns=&quot;http://tns.tibco.com/bw/activity/sendhttpresponse/xsd/input+92bec6dd-2fa0-4485-9175-6b4701a8210d+ResponseActivityInput&quot; xmlns:bw=&quot;http://www.tibco.com/bw/xpath/bw-custom-functions&quot; version=&quot;2.0&quot;>&lt;xsl:template name=&quot;SendHTTPResponse-input&quot; match=&quot;/&quot;>&lt;tns:ResponseActivityInput>&lt;asciiContent>&lt;xsl:value-of select=&quot;concat('message is:' ,bw:getModuleProperty(&amp;quot;Message&amp;quot;))&quot;/>&lt;/asciiContent>&lt;/tns:ResponseActivityInput>&lt;/xsl:template>&lt;/xsl:stylesheet>"
                     expressionLanguage="urn:oasis:names:tc:wsbpel:2.0:sublang:xslt1.0"
-                    inputVariable="SendHTTPResponse-input"
-                    name="SendHTTPResponse"
+                    inputVariable="SendHTTPResponsess-input"
+                    name="SendHTTPResponsess"
                     tibex:xpdlId="92bec6dd-2fa0-4485-9175-6b4701a8210d" xmlns:tibex="http://www.tibco.com/bpel/2007/extensions">
                     <bpws:targets>
                         <bpws:target linkName="Incoming_HTTP_RequestToSendHTTPResponse"/>
